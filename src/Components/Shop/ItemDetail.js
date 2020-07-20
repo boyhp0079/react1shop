@@ -1,6 +1,7 @@
 import React from "react";
 import { ProductConsumer } from "../context";
 import "./ItemDetailStyle.css";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BackBtn from '../BackBtn'
 export default function ItemDetail({ match }) {
@@ -9,13 +10,14 @@ export default function ItemDetail({ match }) {
   <BackBtn/>
   <div className="item-detail-page">
       <ProductConsumer>
+        
         {(value) => {
           const item1 = value.products.find(
             (item) => item.id == match.params.id
           );
           return (
             <>
-              <img src={item1.img} alt={item1.name} alt="cool"/>
+              <img src={"/"+item1.img} alt={item1.name} />
               <div class="float-right-detail">
                 <h2 className="item-detail-name">{item1.name}</h2>
                 <p className="item-detail-price">

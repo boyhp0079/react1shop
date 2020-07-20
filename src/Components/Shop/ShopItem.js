@@ -8,9 +8,9 @@ export default function ShopItem({ product, handleAdd }) {
         <div className="shop-item">
             <div className="item-name">
               <span>{product.name}</span>
-              <span>{product.price}</span>
+              <span>${product.price}</span>
             </div>
-            <img src={process.env.PUBLIC_URL + product.img} />
+            <img src={product.img} alt={product.name}/>
             <button className="add-cart-btn btn" onClick={() => handleAdd(product.id)}>
             <FontAwesomeIcon size="2x" icon="cart-plus" />
             </button>

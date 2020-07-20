@@ -1,5 +1,4 @@
 .slider{
-    border: 1px solid red;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -10,7 +9,6 @@
     margin-bottom: 2rem;
 }
 .slide{
-    border: 1px solid blue;
     min-width: 100%;
     height: 100%;
     transition: 0.5s;

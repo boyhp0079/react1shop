@@ -1,57 +1,89 @@
 export const storeProduct = [
     {
         id:1,
-        name:"item1",
-        img:"/untitled-1.png",
-        price:1000,
-        category:"drink",
-        amount:0
-    },
-    {
-        id:2,
-        name:"item2",
-        img:"/untitled-1.png",
-        price:1000,
-        category:"drink",
-        amount:0
-    },
-    {
-        id:3,
-        name:"item3",
-        img:"/untitled-1.png",
+        name:"Pink Donut",
+        img:"items/item2.jpg",
         price:1000,
         category:"food",
         amount:0
     },
     {
+        id:2,
+        name:"Brow Donut",
+        img:"items/item3.jpg",
+        price:1000,
+        category:"food",
+        amount:0
+    },
+    {
+        id:3,
+        name:"Banana",
+        img:"items/item4.jpg",
+        price:5000,
+        category:"food",
+        amount:0
+    },
+    {
         id:4,
-        name:"item4",
-        img:"/untitled-1.png",
+        name:"Lemon",
+        img:"items/item5.jpg",
         price:1000,
         category:"food",
         amount:0
     },
     {
         id:5,
-        name:"item4",
-        img:"/untitled-1.png",
+        name:"Cabbage",
+        img:"items/item6.jpg",
         category:"food",
-        price:1000,
+        price:2000,
         amount:0
     },
     {
         id:6,
-        name:"item4",
-        img:"/untitled-1.png",
-        price:1000,
-        category:"drink",
+        name:"Bluey Ice-cream",
+        img:"items/ice-cream1.jpg",
+        price:3000,
+        category:"food",
         amount:0
     },
     {
         id:7,
-        name:"item4",
-        img:"/untitled-1.png",
+        name:"Yellow Ice-cream",
+        img:"items/ice-cream2.jpg",
         price:1000,
+        category:"food",
+        amount:0
+    },
+    {
+        id:8,
+        name:"Orange Ice-cream",
+        img:"items/ice-cream3.jpg",
+        price:2000,
+        category:"food",
+        amount:0
+    },
+    {
+        id:9,
+        name:"Red Wine",
+        img:"items/drink1.jpg",
+        price:2000,
+        category:"drink",
+        amount:0
+    },
+    {
+        id:10,
+        name:"A Beer",
+        img:"items/drink2.jpg",
+        price:3000,
+        category:"drink",
+        amount:0
+    },
+    {
+        id:11,
+        name:"CocaCola",
+        img:"items/drink3.jpg",
+        price:4000,
         category:"drink",
         amount:0
     }
