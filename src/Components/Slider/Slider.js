@@ -4,9 +4,9 @@ import Slide from './Slide'
 import Dot from './Dot'
 export default function Slider() {
     let SliderArr = [
-    <Slide src={process.env.PUBLIC_URL+"cool.jpg"}/>,
-    <Slide src={process.env.PUBLIC_URL+"items/untitled-1.png"}/>,
-    <Slide src={process.env.PUBLIC_URL+"items/untitled-1.png"}/>,
+    <Slide src={process.env.PUBLIC_URL+"/items/item4.jpg"}/>,
+    <Slide src={process.env.PUBLIC_URL+"/items/item6.webp"}/>,
+    <Slide src={process.env.PUBLIC_URL+"/items/ice-cream3.jpg"}/>,
 ]
     const [x,setx] = useState(0);
     const goLeft=()=>{
