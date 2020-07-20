@@ -1,0 +1,48 @@
+.slider{
+    border: 1px solid red;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.slide{
+    border: 1px solid blue;
+    min-width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+    
+}
+.slide-arrow{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.slide-arrow:hover{
+    background-color: rgb(255, 255, 255,0.4);
+}
+.slide-arrow i{
+    font-size: 4vh;
+    color: tomato;
+}
+#arrow-left{
+    left: 0;
+}
+#arrow-right{
+    right: 0;
+
+}
+
+@media (max-width:678px) {
+    .slide{
+        height: 100%;
+    }
+}
